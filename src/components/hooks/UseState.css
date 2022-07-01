@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.num{
+    color: white;
+    text-align: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box1{
+    height: 8vh;
+    width: 4vw;
+    background-color: bisque;
+    margin: 1vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+
+
+}
+.box1:hover{
+    border: 2px solid greenyellow;
+}
